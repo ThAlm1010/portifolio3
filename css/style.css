@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
 * {
     margin : 0;
     padding : 0;
@@ -7,6 +9,30 @@
 a {
     text-decoration: none;
 }
+
+ body * {
+color :ghostwhite;
+}
+
 body {
     background: url("../img/tema\ claro\ desktop.jpeg") no-repeat top center/cover;
+}
+
+p{
+    font-family: "UnifrakturMaguntia", cursive;
+}
+.container{
+    max-width: 580px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+.perfil {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.perfil img {
+    width: 320px;
+    border-radius: 50%;
 }
